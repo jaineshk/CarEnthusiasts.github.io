@@ -1,0 +1,198 @@
+.icon{
+	width: 10em;
+	padding: .25rem;
+	border-radius: .25rem;
+	max-width: 100%;
+    height: auto;
+}
+
+.img-thumbnail { 
+    background-color: #cd00b4;
+    border: 1px solid #cd00b4;
+}
+
+.navbar{
+	box-shadow: 0 6px 8px 0;
+
+}
+
+.nav-brand {
+	padding-right: 2em;
+}
+
+.active {
+    background-color: #cd00b4 !important; 
+}
+.nav-link {
+	color: #ffffff;
+	text-decoration:none;
+	padding-right: 6em;
+    padding-left: 6em;
+}
+
+
+
+.background{
+	height: auto;
+	display: block;
+	background: rgba(0,0,0,0.7) url("../images/background.jpg");
+	background-blend-mode: darken;
+}
+
+.demoimages{
+	display: block;
+	align-items: center;
+}
+
+.demoimg{
+	border:3%;
+	border-color: #cd00b4 ;
+	width: 20em;
+	display: inline-block;
+	margin: 3% ;
+	padding: 6px 6px;
+}
+.visible-md{
+		display: none;
+}
+
+.info{
+	padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.infohead{
+	align-items: center;
+	text-align: center;
+}
+
+.heading{
+	font-family: 'Tangerine', serif;
+	font-size: 10em;
+	color: #cd00b4;
+}
+
+/*
+@media screen and (min-width: 768px){
+	.visible-md{
+		display: inline-block;
+	}
+*/
+
+
+.para{
+	margin: 0 27%;
+	font-family: serif;
+	color: #ffffff;
+}
+
+.para p:nth-child(1){
+	font-size: 3em;
+}
+
+.para p:nth-child(2) {
+	font-size: 1em;
+	font-family: monospace;
+}
+
+.linklist li{
+	display: inline-block;
+	color: #ffffff;
+	font-family: sans-serif;
+	padding:0 14%;
+}
+
+.linklist li:first-child{
+	display: block;
+}
+
+/*.samplephoto{
+	background-color: rgba(0,0,0,0.88);
+
+}*/
+
+.select li{
+	padding: 2%;
+	
+}
+
+.select li button{
+	color: white;
+}
+
+.select li button:hover{
+	color: grey;
+}
+
+
+.column {
+  -ms-flex: 100%; 
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+ 
+  background-color:darkgray;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+
+  width: 100%;
+  
+}
+
+div.desc {
+  padding: 5%;
+  text-align: center;
+  color:black;
+		
+}
+
+.gallery{
+	display:none; 
+}
+
+
+.show {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+	@media screen and (min-width: 800px) {
+  .column {
+    -ms-flex: 30%;
+    flex: 30%;
+    max-width: 30%;
+  }
+	}
+		
+	@media screen and (min-width: 1000px) {
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+  }		
+		}
+
+	@media screen and (min-width: 1100px) {
+  .column {
+    -ms-flex: 20%;
+    flex: 20%;
+    max-width: 20%;
+  }
+		}
