@@ -34,9 +34,10 @@
 
 .background{
 	height: auto;
-	display: block;
 	background: rgba(0,0,0,0.7) url("../images/background.jpg");
 	background-blend-mode: darken;
+	
+	
 }
 
 .demoimages{
@@ -95,6 +96,10 @@
 	font-family: monospace;
 }
 
+.linklist{
+		margin: 0;
+}
+
 .linklist li{
 	display: inline-block;
 	color: #ffffff;
@@ -136,7 +141,6 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
- 
   background-color:darkgray;
 }
 
@@ -145,7 +149,6 @@ div.gallery:hover {
 }
 
 div.gallery img {
-
   width: 100%;
   
 }
@@ -154,8 +157,14 @@ div.desc {
   padding: 5%;
   text-align: center;
   color:black;
-		
+  display: none;		
 }
+
+div.desc:hover {
+	display: block;
+	color:black;
+}
+
 
 .gallery{
 	display:none; 
@@ -165,6 +174,46 @@ div.desc {
 .show {
   display: block;
 }
+
+@media screen and (max-width: 500px){
+	
+	.heading{
+	font-size: 5em;
+ }
+	
+	.para{
+	margin: 0 22%;
+	
+ }
+
+	.para p:nth-child(1){
+	font-size: 64%;
+}
+
+	.para p:nth-child(2) {
+	font-size: 30% ;
+	
+}
+	.links{
+		margin: 0 ;
+	}
+	
+	.linklist{
+		margin: 0;
+		font-size: 25%;
+		padding : 0 5%;
+	}
+	
+	.linklist li{
+	padding: 0 0%;
+		
+	
+	
+	} 
+}
+
+
+
 
 @media screen and (min-width: 600px) {
   .column {
